@@ -1,0 +1,391 @@
+less notes.txt 
+cat files.txt 
+ls
+ls > files.txt
+echo lovely
+cat lovely.txt
+echo super > lovely.txt
+cat notes.txt 
+ls -la
+man touch
+ls notes.txt 
+touch notes.txt
+cd notebook
+pwd
+mkdir notebook
+cd 01_week/
+mkdir 01_week
+cd ~/Projects
+clear
+tree -L 2
+cd ~
+tree -L 3
+git status
+git push
+git commit -m 'test'
+git add --all
+git add -a
+git statys
+git commit -a
+git commit -m 'Added cheerup and switch'
+cd Projects-JavaScript/
+cd ..
+cd Codecademy/
+cd Github
+CD Projects-JavaScript/
+git Projects-JavaScript/
+cd Programming/Github/Codecademy/
+cd ~_timezone
+cd ~/OneDrive/Programming/Facebook/
+cd ~/Documents
+cd ~/Applications/Chrome\ Apps.localized/
+cd ~/Library/
+ls -l ~/Documents/../
+cd /
+cd ../
+CD /
+tree -L 1
+brew install tree
+echo ~
+open .
+ls -rp
+ls -rmp
+ls -rm
+ls -r
+man ls
+ls -p
+ls -q
+ls -m
+ls -C
+ls -c
+ls -li
+ls -lah
+ls -hal
+ls -hl
+cd ../../../
+ls -l
+cd Programming/Github/Co
+cd Co
+cd Programming/Github
+cd ../../
+cd Pluralsight/
+cd Programming
+;s -l
+groups
+whoami
+cd Projects/rrathbone.surge.sh/
+surge -V
+cat .npmrc
+vim .npmrc
+surge
+git commit -m 'Add a CNAME'
+git add CNAME
+touch CNAME
+git commit -m 'Add a tiny web page'
+git add index.html 
+open index.html 
+atom .
+touch index.html
+git init
+curl -fsSL https://git.io/vgqFU | ruby
+ls  -a
+ls --a
+git update-ref HEAD master
+curl -fsSL https://git.io/vKZJ8 | sh
+ls -a
+$git init
+cd rrathbone.surge.sh/
+mkdir rrathbone.surge.sh
+mkdir ~/Projects
+npm install -g surge
+npm uninstall -g surge
+npm config set prefix /usr/local
+npm get prefix
+atom /etc/paths
+which surge
+npm help help
+npm help npm
+vim /etc/paths
+ll /usr/local/bin
+echo $PATH
+brew list
+bash
+chsh bash
+cat /etc/shells
+/etc/shells
+chsh /bin/bash
+npm update surge
+cat /etc/paths
+man surge
+npm list -g --depth=0
+node ~/Desktop/test.js
+rm ~/Desktop/test.js 
+node ~/Desktop/
+node
+node -v
+git config --list
+git config --global user.email 'rachellerathbone@gmail.com'
+git config --global user.name 'rrathbone'
+brew search
+git --version
+which brew
+echo $EDITOR
+brew doctor
+brew link pcre2
+sudo atom /etc/paths
+sudo /etc/paths
+brew link --overwrite git
+brew link git
+sudo chown -R (whoami) /usr/local/share/man/man7
+sudo chown -R (whoami) /usr/local/share/man/man5
+sudo chown -R (whoami) /usr/local/share/man/man3
+brew info fish
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+brew install node
+git config --global user.name 'Rachelle Rathbone'
+set -x EDITOR 'atom -w'
+# Atom
+atom ~/.config/fish/config.fish
+brew install git
+fish_update_completions
+chsh -s /usr/local/bin/fish
+uname
+rvm -v
+\curl -sSL https://get.rvm.io | bash -s stable
+rvm install 2.3.0
+xcode-select -p
+xcode-select --install
+\curl -sSL https://get.rvm.io | bash -s table
+cd frank/joe
+cd ../frank
+cd ../temp/stuff/things/frank/joe
+cd ../temp/stuff/things/frank
+cd ../joe/frank
+cd ../joe
+../frank
+cd ../../../temp
+cd ..temp/
+cd ../temp
+cd temp/stuff/things/frank/joe
+cd joe
+cd joe/ directory
+mkdir -p temp/stuff/things/frank/joe/alex/john
+mkdir temp/stuff/things
+mkdir temp/stuff
+mkdir temp
+hostname
+Just like the last exercise, type this command 20 times and say it out loud.
+Do More
+This is the name of your computer, or at least one of its names. Your name will probably be different than mine, and it could be just about anything.
+You Learned This
+>
+zed-PC
+> hostname
+$
+Zeds-MacBook-Pro.local
+$ hostname
+Do This
+cd jumpstart/
+rmdir jdir2
+mkdir jdir2
+mk jdir2
+cd jumpstart
+mkdir jumpstart
+cd ada
+mkdir ada
+less notes.txt 
+history > notes.txt 
+cat files.txt 
+ls
+ls > files.txt
+echo lovely
+cat lovely.txt
+echo super > lovely.txt
+cat notes.txt 
+ls -la
+man touch
+ls notes.txt 
+touch notes.txt
+cd notebook
+pwd
+mkdir notebook
+cd 01_week/
+mkdir 01_week
+cd ~/Projects
+clear
+tree -L 2
+cd ~
+tree -L 3
+git status
+git push
+git commit -m 'test'
+git add --all
+git add -a
+git statys
+git commit -a
+git commit -m 'Added cheerup and switch'
+cd Projects-JavaScript/
+cd ..
+cd Codecademy/
+cd Github
+CD Projects-JavaScript/
+git Projects-JavaScript/
+cd Programming/Github/Codecademy/
+cd ~_timezone
+cd ~/OneDrive/Programming/Facebook/
+cd ~/Documents
+cd ~/Applications/Chrome\ Apps.localized/
+cd ~/Library/
+ls -l ~/Documents/../
+cd /
+cd ../
+CD /
+tree -L 1
+brew install tree
+echo ~
+open .
+ls -rp
+ls -rmp
+ls -rm
+ls -r
+man ls
+ls -p
+ls -q
+ls -m
+ls -C
+ls -c
+ls -li
+ls -lah
+ls -hal
+ls -hl
+cd ../../../
+ls -l
+cd Programming/Github/Co
+cd Co
+cd Programming/Github
+cd ../../
+cd Pluralsight/
+cd Programming
+;s -l
+groups
+whoami
+cd Projects/rrathbone.surge.sh/
+surge -V
+cat .npmrc
+vim .npmrc
+surge
+git commit -m 'Add a CNAME'
+git add CNAME
+touch CNAME
+git commit -m 'Add a tiny web page'
+git add index.html 
+open index.html 
+atom .
+touch index.html
+git init
+curl -fsSL https://git.io/vgqFU | ruby
+ls  -a
+ls --a
+git update-ref HEAD master
+curl -fsSL https://git.io/vKZJ8 | sh
+ls -a
+$git init
+cd rrathbone.surge.sh/
+mkdir rrathbone.surge.sh
+mkdir ~/Projects
+npm install -g surge
+npm uninstall -g surge
+npm config set prefix /usr/local
+npm get prefix
+atom /etc/paths
+which surge
+npm help help
+npm help npm
+vim /etc/paths
+ll /usr/local/bin
+echo $PATH
+brew list
+bash
+chsh bash
+cat /etc/shells
+/etc/shells
+chsh /bin/bash
+npm update surge
+cat /etc/paths
+man surge
+npm list -g --depth=0
+node ~/Desktop/test.js
+rm ~/Desktop/test.js 
+node ~/Desktop/
+node
+node -v
+git config --list
+git config --global user.email 'rachellerathbone@gmail.com'
+git config --global user.name 'rrathbone'
+brew search
+git --version
+which brew
+echo $EDITOR
+brew doctor
+brew link pcre2
+sudo atom /etc/paths
+sudo /etc/paths
+brew link --overwrite git
+brew link git
+sudo chown -R (whoami) /usr/local/share/man/man7
+sudo chown -R (whoami) /usr/local/share/man/man5
+sudo chown -R (whoami) /usr/local/share/man/man3
+brew info fish
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+brew install node
+git config --global user.name 'Rachelle Rathbone'
+set -x EDITOR 'atom -w'
+# Atom
+atom ~/.config/fish/config.fish
+brew install git
+fish_update_completions
+chsh -s /usr/local/bin/fish
+uname
+rvm -v
+\curl -sSL https://get.rvm.io | bash -s stable
+rvm install 2.3.0
+xcode-select -p
+xcode-select --install
+\curl -sSL https://get.rvm.io | bash -s table
+cd frank/joe
+cd ../frank
+cd ../temp/stuff/things/frank/joe
+cd ../temp/stuff/things/frank
+cd ../joe/frank
+cd ../joe
+../frank
+cd ../../../temp
+cd ..temp/
+cd ../temp
+cd temp/stuff/things/frank/joe
+cd joe
+cd joe/ directory
+mkdir -p temp/stuff/things/frank/joe/alex/john
+mkdir temp/stuff/things
+mkdir temp/stuff
+mkdir temp
+hostname
+Just like the last exercise, type this command 20 times and say it out loud.
+Do More
+This is the name of your computer, or at least one of its names. Your name will probably be different than mine, and it could be just about anything.
+You Learned This
+>
+zed-PC
+> hostname
+$
+Zeds-MacBook-Pro.local
+$ hostname
+Do This
+cd jumpstart/
+rmdir jdir2
+mkdir jdir2
+mk jdir2
+cd jumpstart
+mkdir jumpstart
+cd ada
+mkdir ada

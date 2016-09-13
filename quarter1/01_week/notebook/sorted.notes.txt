@@ -1,0 +1,391 @@
+# Atom
+# Atom
+$
+$
+$ hostname
+$ hostname
+$git init
+$git init
+../frank
+../frank
+/etc/shells
+/etc/shells
+;s -l
+;s -l
+>
+>
+> hostname
+> hostname
+CD /
+CD /
+CD Projects-JavaScript/
+CD Projects-JavaScript/
+Do More
+Do More
+Do This
+Do This
+Just like the last exercise, type this command 20 times and say it out loud.
+Just like the last exercise, type this command 20 times and say it out loud.
+This is the name of your computer, or at least one of its names. Your name will probably be different than mine, and it could be just about anything.
+This is the name of your computer, or at least one of its names. Your name will probably be different than mine, and it could be just about anything.
+You Learned This
+You Learned This
+Zeds-MacBook-Pro.local
+Zeds-MacBook-Pro.local
+\curl -sSL https://get.rvm.io | bash -s stable
+\curl -sSL https://get.rvm.io | bash -s stable
+\curl -sSL https://get.rvm.io | bash -s table
+\curl -sSL https://get.rvm.io | bash -s table
+atom .
+atom .
+atom /etc/paths
+atom /etc/paths
+atom ~/.config/fish/config.fish
+atom ~/.config/fish/config.fish
+bash
+bash
+brew doctor
+brew doctor
+brew info fish
+brew info fish
+brew install git
+brew install git
+brew install node
+brew install node
+brew install tree
+brew install tree
+brew link --overwrite git
+brew link --overwrite git
+brew link git
+brew link git
+brew link pcre2
+brew link pcre2
+brew list
+brew list
+brew search
+brew search
+cat .npmrc
+cat .npmrc
+cat /etc/paths
+cat /etc/paths
+cat /etc/shells
+cat /etc/shells
+cat files.txt 
+cat files.txt 
+cat lovely.txt
+cat lovely.txt
+cat notes.txt 
+cat notes.txt 
+cd ..
+cd ..
+cd ../
+cd ../
+cd ../../
+cd ../../
+cd ../../../
+cd ../../../
+cd ../../../temp
+cd ../../../temp
+cd ../frank
+cd ../frank
+cd ../joe
+cd ../joe
+cd ../joe/frank
+cd ../joe/frank
+cd ../temp
+cd ../temp
+cd ../temp/stuff/things/frank
+cd ../temp/stuff/things/frank
+cd ../temp/stuff/things/frank/joe
+cd ../temp/stuff/things/frank/joe
+cd ..temp/
+cd ..temp/
+cd /
+cd /
+cd 01_week/
+cd 01_week/
+cd Co
+cd Co
+cd Codecademy/
+cd Codecademy/
+cd Github
+cd Github
+cd Pluralsight/
+cd Pluralsight/
+cd Programming
+cd Programming
+cd Programming/Github
+cd Programming/Github
+cd Programming/Github/Co
+cd Programming/Github/Co
+cd Programming/Github/Codecademy/
+cd Programming/Github/Codecademy/
+cd Projects-JavaScript/
+cd Projects-JavaScript/
+cd Projects/rrathbone.surge.sh/
+cd Projects/rrathbone.surge.sh/
+cd ada
+cd ada
+cd frank/joe
+cd frank/joe
+cd joe
+cd joe
+cd joe/ directory
+cd joe/ directory
+cd jumpstart
+cd jumpstart
+cd jumpstart/
+cd jumpstart/
+cd notebook
+cd notebook
+cd rrathbone.surge.sh/
+cd rrathbone.surge.sh/
+cd temp/stuff/things/frank/joe
+cd temp/stuff/things/frank/joe
+cd ~
+cd ~
+cd ~/Applications/Chrome\ Apps.localized/
+cd ~/Applications/Chrome\ Apps.localized/
+cd ~/Documents
+cd ~/Documents
+cd ~/Library/
+cd ~/Library/
+cd ~/OneDrive/Programming/Facebook/
+cd ~/OneDrive/Programming/Facebook/
+cd ~/Projects
+cd ~/Projects
+cd ~_timezone
+cd ~_timezone
+chsh -s /usr/local/bin/fish
+chsh -s /usr/local/bin/fish
+chsh /bin/bash
+chsh /bin/bash
+chsh bash
+chsh bash
+clear
+clear
+curl -fsSL https://git.io/vKZJ8 | sh
+curl -fsSL https://git.io/vKZJ8 | sh
+curl -fsSL https://git.io/vgqFU | ruby
+curl -fsSL https://git.io/vgqFU | ruby
+echo $EDITOR
+echo $EDITOR
+echo $PATH
+echo $PATH
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+echo lovely
+echo lovely
+echo super > lovely.txt
+echo super > lovely.txt
+echo ~
+echo ~
+fish_update_completions
+fish_update_completions
+git --version
+git --version
+git Projects-JavaScript/
+git Projects-JavaScript/
+git add --all
+git add --all
+git add -a
+git add -a
+git add CNAME
+git add CNAME
+git add index.html 
+git add index.html 
+git commit -a
+git commit -a
+git commit -m 'Add a CNAME'
+git commit -m 'Add a CNAME'
+git commit -m 'Add a tiny web page'
+git commit -m 'Add a tiny web page'
+git commit -m 'Added cheerup and switch'
+git commit -m 'Added cheerup and switch'
+git commit -m 'test'
+git commit -m 'test'
+git config --global user.email 'rachellerathbone@gmail.com'
+git config --global user.email 'rachellerathbone@gmail.com'
+git config --global user.name 'Rachelle Rathbone'
+git config --global user.name 'Rachelle Rathbone'
+git config --global user.name 'rrathbone'
+git config --global user.name 'rrathbone'
+git config --list
+git config --list
+git init
+git init
+git push
+git push
+git status
+git status
+git statys
+git statys
+git update-ref HEAD master
+git update-ref HEAD master
+groups
+groups
+history > notes.txt 
+hostname
+hostname
+less notes.txt 
+less notes.txt 
+ll /usr/local/bin
+ll /usr/local/bin
+ls
+ls
+ls  -a
+ls  -a
+ls --a
+ls --a
+ls -C
+ls -C
+ls -a
+ls -a
+ls -c
+ls -c
+ls -hal
+ls -hal
+ls -hl
+ls -hl
+ls -l
+ls -l
+ls -l ~/Documents/../
+ls -l ~/Documents/../
+ls -la
+ls -la
+ls -lah
+ls -lah
+ls -li
+ls -li
+ls -m
+ls -m
+ls -p
+ls -p
+ls -q
+ls -q
+ls -r
+ls -r
+ls -rm
+ls -rm
+ls -rmp
+ls -rmp
+ls -rp
+ls -rp
+ls > files.txt
+ls > files.txt
+ls notes.txt 
+ls notes.txt 
+man ls
+man ls
+man surge
+man surge
+man touch
+man touch
+mk jdir2
+mk jdir2
+mkdir -p temp/stuff/things/frank/joe/alex/john
+mkdir -p temp/stuff/things/frank/joe/alex/john
+mkdir 01_week
+mkdir 01_week
+mkdir ada
+mkdir ada
+mkdir jdir2
+mkdir jdir2
+mkdir jumpstart
+mkdir jumpstart
+mkdir notebook
+mkdir notebook
+mkdir rrathbone.surge.sh
+mkdir rrathbone.surge.sh
+mkdir temp
+mkdir temp
+mkdir temp/stuff
+mkdir temp/stuff
+mkdir temp/stuff/things
+mkdir temp/stuff/things
+mkdir ~/Projects
+mkdir ~/Projects
+node
+node
+node -v
+node -v
+node ~/Desktop/
+node ~/Desktop/
+node ~/Desktop/test.js
+node ~/Desktop/test.js
+npm config set prefix /usr/local
+npm config set prefix /usr/local
+npm get prefix
+npm get prefix
+npm help help
+npm help help
+npm help npm
+npm help npm
+npm install -g surge
+npm install -g surge
+npm list -g --depth=0
+npm list -g --depth=0
+npm uninstall -g surge
+npm uninstall -g surge
+npm update surge
+npm update surge
+open .
+open .
+open index.html 
+open index.html 
+pwd
+pwd
+rm ~/Desktop/test.js 
+rm ~/Desktop/test.js 
+rmdir jdir2
+rmdir jdir2
+rvm -v
+rvm -v
+rvm install 2.3.0
+rvm install 2.3.0
+set -x EDITOR 'atom -w'
+set -x EDITOR 'atom -w'
+sudo /etc/paths
+sudo /etc/paths
+sudo atom /etc/paths
+sudo atom /etc/paths
+sudo chown -R (whoami) /usr/local/share/man/man3
+sudo chown -R (whoami) /usr/local/share/man/man3
+sudo chown -R (whoami) /usr/local/share/man/man5
+sudo chown -R (whoami) /usr/local/share/man/man5
+sudo chown -R (whoami) /usr/local/share/man/man7
+sudo chown -R (whoami) /usr/local/share/man/man7
+surge
+surge
+surge -V
+surge -V
+touch CNAME
+touch CNAME
+touch index.html
+touch index.html
+touch notes.txt
+touch notes.txt
+tree -L 1
+tree -L 1
+tree -L 2
+tree -L 2
+tree -L 3
+tree -L 3
+uname
+uname
+vim .npmrc
+vim .npmrc
+vim /etc/paths
+vim /etc/paths
+which brew
+which brew
+which surge
+which surge
+whoami
+whoami
+xcode-select --install
+xcode-select --install
+xcode-select -p
+xcode-select -p
+zed-PC
+zed-PC

@@ -1,0 +1,11 @@
+• Explain what the command line is and why it's important: user interface that allows you to execute commands and interact with your computer.
+• Manipulate the file system using commands, file system paths, and command flags
+• Differentiate between the command line and graphical user interfaces
+
+	• open .  Opens the directory you are currently in
+	• File system is a tree. Root directory is represented by / and doesn't have a parent. Home directory ~
+	• GUI: graphical user interface - a way to communicate what you want to a computer application (or operating system) using graphical symbols.
+	• Less puts you into vim - takes your output and puts it into a man page.
+	• Cat: use when you have a small text files.
+	• Less: use when you have more to search through
+	• Grep: search function. Combo of cat and grep will help you find what you are looking for.
