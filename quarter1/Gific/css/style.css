@@ -1,0 +1,689 @@
+body {
+  border: 5px solid #625b58;
+  font-family: 'Canted';
+  margin: 0;
+}
+
+@font-face {
+  font-family: Canted;
+  src: url('fonts/canted.ttf');
+}
+
+@font-face {
+  font-family: KomikaText;
+  src: url('fonts/komikatextsmall.ttf');
+}
+
+/*Navbar*/
+nav.navbar.navbar-default.navbar-top.topnav {
+  margin: 0;
+  border-bottom: 5px solid #625b58;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: #6fa139;
+  background-color: transparent;
+}
+
+a.navbar-brand.topnav {
+  color: #6fa139;
+  font-size: 25px;
+  text-shadow: 1px 0px 0px #000;
+}
+
+a, button {
+  font-family: 'KomikaText';
+  color: #404040;
+  font-size: 15px;
+}
+
+/*Hero image and brand name on index.html*/
+div.intro-header {
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: transparent;
+  height: 100%;
+}
+
+article.intro-message {
+  margin-bottom: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 115px;
+  padding: 20px;
+}
+
+h1.brand-name {
+  background-color: white;
+  border-radius: 5px;
+  border: 5px solid #625b58;
+  margin-top: 40px;
+  text-shadow: 1px 1px 2px #6fa139;
+  color: #404040;
+  padding-top: 3px;
+}
+
+div.example {
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+div.example > a > img {
+  width: 250px;
+  margin: 1%;
+}
+
+#wrapper {
+  max-width: 1200px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 30px;
+  color: #404040;
+  font-size: 22px;
+}
+
+a.btn.btn-default.btn-lg {
+  margin-top: 25px;
+}
+
+a.btn.btn-default.btn-lg, button {
+  border: 4px solid #625b58;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  background-color: #98d3f3;
+  color: #404040;
+}
+
+.btn-group-lg >.btn, .btn-lg, button {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+button.btn.btn-default {
+  border: 2px solid #625b58;
+  background-color: #98d3f3;
+  padding: 8px;
+}
+
+button.btn.btn-default:hover {
+  background-color: #6fa139;
+}
+
+.btn.active.hover, .btn.active:hover,
+.btn.hover, .btn:active.hover, .btn:active:hover, .btn:hover, button:hover, a.btn.btn-default.btn-lg:hover {
+  outline: none;
+  background-color: #6fa139;
+}
+
+/*Input for title*/
+form {
+  text-align: center;
+  margin: 10px 0 0;
+}
+
+/*Working on text-to-speech feature*/
+/*div#sound {
+  text-align: center;
+  line-height: 0
+}
+
+a.say > img {
+  opacity: 0.3;
+  margin-top: -25px;
+  margin-bottom: 20px;
+  width: 24px;
+}*/
+
+p {
+  font-family: 'KomikaText';
+  text-align: center;
+  font-size: 15px;
+  color: #404040;
+  opacity: 0.8;
+  margin-top: 0;
+}
+
+div#randomize {
+  text-align: center;
+}
+
+button#random-title, button#remove-random-title {
+  margin-top: 0;
+  opacity: 0.8;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  border: 3px solid #625b58;
+  font-size: 14px;
+  width: 116px;
+}
+
+button#random-title:focus, button#remove-random-title:focus {
+  outline: none;
+}
+
+/*Modal*/
+.modal-header {
+  border: none;
+  padding: 0;
+}
+
+.modal-header .close {
+  margin-top: 10px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px #6fa139;
+  color: #404040;
+}
+
+#search {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+input#search {
+  width: 100%;
+  height: 40px;
+  resize: none;
+  margin-top: 0;
+  outline: none;
+  background-color: #f1f9ca;
+  border-radius: 2%;
+}
+
+input#search:focus {
+  background-color: #e6eb8f;
+}
+
+div#search-results {
+  text-align: center;
+}
+
+button#search-button, button#random {
+  font-size: 13px;
+  width: 108px;
+  border: 2px solid #625b58;
+}
+
+button#search-button:focus, div.buttons > button {
+  outline: none;
+}
+
+div#modal-buttons {
+  text-align: center;
+}
+
+div#search-results > img {
+  border: 3px solid #625b58;
+  border-radius: 5px;
+  width: 40%;
+  height: 120px;
+  margin-left: 7%;
+  margin-top: 3%;
+}
+
+#search-results > img {
+  width: 100px;
+  float: left;
+}
+
+.modal-footer {
+  border-top: none;
+  text-align: center;
+  clear: both;
+}
+
+/*Comic template*/
+.alert-warning {
+  color: #6fa139;
+  background-color: #f1f9ca;
+  border-color: #e6eb8f;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 1.7;
+  padding: 5px;
+}
+
+div.alert-content {
+  margin-left: 12%;
+}
+
+button.close {
+  margin-top: 0;
+}
+
+button.close > span {
+  margin-top: 0;
+  color: #6fa139;
+}
+
+.row {
+  margin-right: 0;
+}
+
+div.row {
+  margin-left: auto;
+}
+
+div.img{
+  width: 300px;
+  border: solid 1px black;
+  float: left;
+  cursor: pointer;
+  background-color: white;
+  height: 180px;
+  width: 33%;
+  border-radius: 5px;
+  margin-right: 1px;
+}
+
+#comic-background {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 50px
+}
+
+#hero-overlay, #comic-background, #comic-background-title {
+  background-color: #fff;
+  border: 5px solid #625b58;
+  border-radius: 5px;
+}
+
+#comic-background-title {
+  margin-top: 40px;
+}
+
+div#comic-background-title > div > form > textarea {
+  font-family: 'Canted';
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+  text-shadow: 1px 1px 2px #6fa139;
+  color: #404040;
+  border: none;
+  width: 80%;
+  resize: none;
+  margin-top: 0;
+  outline: none;
+}
+
+div#comic-template {
+  max-width: 903px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#comic-template {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+div#comic-template > div.row > div.img {
+  border: 5px solid #625b58;
+  margin-bottom: 1px;
+}
+
+div#comic-template > div.row {
+  margin-bottom: 81px;
+}
+
+div#comic-template > div.row > div.img > textarea.main-text {
+  font-family: 'KomikaText';
+  color: #404040;
+  font-size: 17px;
+  text-align: center;
+  resize: none;
+  border: 5px solid #625b58;
+  height: 80px;
+  background-color: #f1f9ca;
+  border-radius: 2%;
+  width: 103%;
+  margin-left: -4px;
+  float: left;
+  margin-top: 6px;
+  padding-top: 10px;
+}
+
+div > img {
+  width: 100%;
+  height: 100%;
+}
+
+div#comic-template > div.row > div.img > textarea.main-text:focus {
+  background-color: #e6eb8f;
+  outline: none;
+}
+
+
+div.text {
+  height: 50px;
+  text-align: center;
+}
+
+div.buttons {
+  margin: 10px 0 5px 0;
+}
+
+.buttons {
+  text-align: center;
+  margin: 30px;
+}
+
+button {
+  margin: 10px;
+  width: 100px;
+}
+
+button.close:hover {
+  background-color: #fff;
+}
+
+div.alert.alert-success.fade.in {
+  text-align: center;
+}
+
+/*Footer*/
+footer {
+  border-top: 5px solid #625b58;
+  background-color: #fff;
+}
+
+footer > div.container > div.row {
+  height: 65px;
+}
+
+div#thanks-giphy {
+  float: left;
+  width: 22px;
+  margin-left: -45px;
+  margin-top: 18px;
+}
+
+.list-inline>li {
+  padding-right: 12px;
+}
+
+ul.list-inline {
+  float: right;
+  margin-top: 6px;
+}
+
+p.copyright.text-muted.small {
+  margin-top: 3%;
+  float: left;
+}
+
+a:focus, a:hover {
+  color: #6fa139;
+  text-decoration: none;
+}
+
+a#gallery {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 450px) {
+  div#comic-background-title {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  span#make-gific.network-name {
+    margin-top: 25px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  span#make-gific.network-name {
+    margin-top: 25px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  a.say > img {
+    opacity: 0.3;
+    margin-top: -25px;
+    margin-bottom: 20px;
+    width: 24px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  button#random-title, button#remove-random-title, button#reset, button#submit {
+    margin-top: 10px;
+    width: 40%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  button#random-title, button#remove-random-title, button#reset, button#submit {
+    margin-top: 10px;
+    width: 25%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  button#random-title, button#remove-random-title, button#reset, button#submit {
+    margin-top: 10px;
+    width: 20%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  button#random-title, button#remove-random-title, button#reset, button#submit {
+    margin-top: 10px;
+    width: 13%;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  button#random-title, button#remove-random-title, button#random-title {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  button#reset, button#submit {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  div#comic-template {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .img, .text {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .alert-warning {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  div#comic-template {
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div#comic-background-title > div > form > textarea {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div.img {
+    width: 80%;
+    height: 120px;
+    margin-bottom: 80px;
+    margin-top: 67px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #comic-background-title > div > form > textarea#title {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width: 451px) {
+  #comic-background-title > div > form > textarea#title {
+    font-size: 35px;
+    margin-bottom: 40px;
+    line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #comic-background-title > div > form > textarea#title {
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #comic-background-title > div > p {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div#first-image.img {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div#second-image.img {
+    margin-top: -13px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div#comic-template > div.row > div.img > textarea.main-text {
+    height: 60%;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div#submit-success {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 10px;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (min-width: 451px) {
+  div#submit-success {
+    font-size: 12px;
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  div#submit-success {
+    font-size: 12px;
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  div#submit-success {
+    width: 40%;
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  p.copyright.text-muted.small {
+    margin-top: 20px;
+    margin-left: 12px;
+  }
+}
+
+@media only screen and (min-width: 451px) {
+  p.copyright.text-muted.small {
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  div#thanks-giphy {
+    width: 14px;
+    margin-left: -15px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 451px) {
+  div#thanks-giphy {
+    width: 16px;
+    margin-left: -10px;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  ul.list-inline {
+    margin-top: 17px;
+  }
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gific Comic Strip</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-top topnav">
+      <div class="container topnav">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand topnav" href="index.html">Gific</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">Create</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="intro-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                    <h4 class="modal-title">Gific</h4>
+                  <form>
+                    <div class="modal-body">
+                      <input type="text" name="search" placeholder="Search Gifiverse" id="search" autocomplete="off">
+                      <div id='modal-buttons'>
+                        <button id="search-button">Gif Search</button>
+                        <button id="random">Random Gif</button>
+                      </div>
+                      <div id="search-results"></div>
+                    </div>
+                  </form>
+                  <div class="modal-footer">
+                    <!-- <button id="enter" type="button" class="btn btn-default">Select</button> -->
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="comic-background-title">
+              <div>
+                <form>
+                  <textarea name="title" placeholder="Type Your Gific Strip Title Here" id="title"></textarea>
+                </form>
+                <!-- Working on text-to-speech feature -->
+                <!-- <div id="sound">
+                  <a href="#" class="say"><img src="img/speaker.jpg" alt=""></a>
+                  <audio src="" class="speech" hidden></audio>
+                </div> -->
+                <p>Can't think of your own title? Click the random button below</p>
+                <div id="randomize">
+                  <button id="random-title">Random Title</button>
+                  <button id="remove-random-title">Clear Title</button>
+                </div>
+              </div>
+            </div>
+
+            <div id="comic-background">
+              <div class="alert alert-warning alert-dismissible" role="alert" id="title-alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div class="alert-content">
+                  To create your own Gific, enter a title above, click on the white boxes to search for Gifs and type your text in the green boxes
+                </div>
+              </div>
+              <div id="comic-template">
+                <div class="row">
+                  <div class="img" id="first-image">
+                    <img class="modal-image" src="" alt="" data-toggle="modal" data-target="#myModal"/>
+                    <textarea class="main-text" placeholder="Enter text here"></textarea>
+                  </div>
+                  <div class="img">
+                    <img class="modal-image" src="" alt="" data-toggle="modal" data-target="#myModal"/>
+                    <textarea class="main-text" placeholder="Enter text here"></textarea>
+                  </div>
+                  <div class="img">
+                    <img class="modal-image" src="" alt="" data-toggle="modal" data-target="#myModal"/>
+                    <textarea class="main-text" placeholder="Enter text here"></textarea>
+                  </div>
+                </div>
+                <div class="row" id="second-row">
+                  <div class="img" id="second-image">
+                    <img class="modal-image" src="" alt="" data-toggle="modal" data-target="#myModal"/>
+                    <textarea class="main-text" placeholder="Enter text here"></textarea>
+                  </div>
+                  <div class="img">
+                    <img class="modal-image" src="" alt="" data-toggle="modal" data-target="#myModal"/>
+                    <textarea class="main-text" placeholder="Enter text here"></textarea>
+                  </div>
+                  <div class="img">
+                    <img class="modal-image" src="" alt="" data-toggle="modal" data-target="#myModal"/>
+                    <textarea class="main-text" placeholder="Enter text here"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="buttons">
+                <button type="reset" onclick='location.reload();' id="reset">Reset</button>
+                <button type="submit" value="submit" class="btn-close" id="submit">Save</button>
+              </div>
+              <div id="submit-success">
+                <div class="alert alert-success fade">
+                  <!-- <button class="close" data-dismiss="alert"></button> -->
+                  <strong>Your Gific has been saved successfully</strong>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-inline">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="">Create</a>
+              </li>
+            </ul>
+            <div id="thanks-giphy">
+              <img src="img/badge.gif" alt="" id="giphy-icon">
+            </div>
+            <p class="copyright text-muted small">Copyright © Gific</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src='https://code.responsivevoice.org/responsivevoice.js'></script> -->
+    <!-- <script src="http://code.responsivevoice.org/responsivevoice.js"></script> -->
+  </body>
+</html>
