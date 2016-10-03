@@ -1,0 +1,18 @@
+{
+  "name": "trackify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "knexfile.js",
+  "dependencies": {
+    "knex": "^0.12.2",
+    "pg": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knex": "knex"
+  },
+  "keywords": [],
+  "author": "Rachelle Rathbone <rachellerathbone@gmail.com>",
+  "license": "ISC"
+}
