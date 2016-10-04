@@ -1,0 +1,14 @@
+'use strict';
+
+const express = require('express');
+const router = express.Router();
+
+router.get('/english', (req, res) => {
+  res.send('Hello world');
+});
+
+router.get('/spanish', (req, res) => {
+  res.send('Hola mundo');
+});
+
+module.exports = router;
