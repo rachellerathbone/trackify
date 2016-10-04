@@ -101,4 +101,31 @@ router.patch('/tracks/:id', (req, res, next) => {
     });
 });
 
+router.delete('/tracks/:id', (req, res, next) => {
+  let track;
+
+  knex('tracks')
+    .where('id', req.params.id)
+    .first()
+    .then((row) => {
+      if (!row) {
+        throw boom.create(404, 'Not Found');
+      }
+
+      track = camelizeKeys(row);
+
+      return knex('tracks')
+        .del()
+        .where('id', req.params.id);
+    })
+    .then(() => {
+      delete track.id;
+
+      res.send(track);
+    })
+    .catch((err) => {
+      next(err);
+    });
+});
+
 module.exports = router;
