@@ -3,6 +3,8 @@
 const bcrypt = require('bcrypt-as-promised');
 const boom = require('boom');
 const express = require('express');
+const knex = require('../knex');
+const { camelizeKeys, decamelizeKeys } = require('humps');
 
 const router = express.Router();
 
@@ -19,9 +21,16 @@ router.post('/users', (req, res, next) => {
 
   bcrypt.hash(password, 12)
     .then((hashedPassword) => {
-      console.log(email, hashedPassword);
+      const insertUser = { email, hashedPassword };
 
-      res.sendStatus(200);
+      return knex('users').insert(decamelizeKeys(insertUser), '*');
+    })
+    .then((rows) => {
+      const user = camelizeKeys(rows[0]);
+
+      delete user.hashedPassword;
+
+      res.send(user);
     })
     .catch((err) => {
       next(err);
