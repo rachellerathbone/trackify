@@ -12,8 +12,10 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 
 const tracks = require('./routes/tracks');
+const users = require('./routes/users');
 
 app.use(tracks);
+app.use(users);
 
 app.use((_req, res) => {
   res.sendStatus(404);
