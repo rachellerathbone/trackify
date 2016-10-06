@@ -9,11 +9,13 @@
     "boom": "^4.1.0",
     "express": "^4.14.0",
     "humps": "^1.1.0",
+    "jsonwebtoken": "^7.1.9",
     "knex": "^0.12.2",
     "morgan": "^1.7.0",
     "pg": "^6.1.0"
   },
   "devDependencies": {
+    "dotenv": "^2.0.0",
     "nodemon": "^1.10.2"
   },
   "scripts": {
