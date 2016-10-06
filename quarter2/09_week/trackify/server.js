@@ -11,9 +11,11 @@ const morgan = require('morgan');
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 
+const token = require('./routes/token');
 const tracks = require('./routes/tracks');
 const users = require('./routes/users');
 
+app.use(token);
 app.use(tracks);
 app.use(users);
 
