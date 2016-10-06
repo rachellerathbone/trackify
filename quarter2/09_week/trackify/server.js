@@ -1,5 +1,9 @@
 'use strict';
 
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
 const express = require('express');
 const app = express();
 
@@ -15,9 +19,6 @@ const token = require('./routes/token');
 const tracks = require('./routes/tracks');
 const users = require('./routes/users');
 
-if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config();
-}
 
 app.use(token);
 app.use(tracks);

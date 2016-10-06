@@ -3,6 +3,7 @@
 const boom = require('boom');
 const bcrypt = require('bcrypt-as-promised');
 const express = require('express');
+const jwt = require('jsonwebtoken');
 const knex = require('../knex');
 const { camelizeKeys, decamelizeKeys } = require('humps');
 
@@ -55,6 +56,11 @@ router.post('/token', (req, res, next) => {
     .catch((err) => {
       next(err);
     });
+});
+
+router.delete('/token', (req, res, next) => {
+  res.clearCookie('token');
+  res.sendStatus(200);
 });
 
 module.exports = router;
