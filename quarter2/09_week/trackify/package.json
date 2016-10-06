@@ -7,6 +7,7 @@
     "bcrypt-as-promised": "^1.1.0",
     "body-parser": "^1.15.2",
     "boom": "^4.1.0",
+    "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
     "humps": "^1.1.0",
     "jsonwebtoken": "^7.1.9",

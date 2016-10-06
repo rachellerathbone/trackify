@@ -4,6 +4,7 @@ if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config();
 }
 
+const cookieParser = require('cookie-parser');
 const express = require('express');
 const app = express();
 
@@ -14,15 +15,17 @@ const morgan = require('morgan');
 
 app.use(morgan('dev'));
 app.use(bodyParser.json());
+app.use(cookieParser());
 
 const token = require('./routes/token');
 const tracks = require('./routes/tracks');
 const users = require('./routes/users');
-
+const playlists = require('./routes/playlists');
 
 app.use(token);
 app.use(tracks);
 app.use(users);
+app.use(playlists);
 
 app.use((_req, res) => {
   res.sendStatus(404);
